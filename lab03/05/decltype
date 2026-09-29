@@ -1,0 +1,19 @@
+#include <iostream>
+#include <vector>
+
+int main() {
+    int x = 10;
+    double d = 3.14;
+
+    decltype(x) y = 20;
+    decltype(d) e = 2.71;  
+    decltype(x + d) sum = 0; 
+
+    std::cout << y << " " << e << " " << sum << std::endl;
+
+    std::vector<int> v = {1, 2, 3};
+    decltype(v[0]) first = v[0];
+    first = 100;
+    std::cout << v[0] << std::endl;
+    return 0;
+}
