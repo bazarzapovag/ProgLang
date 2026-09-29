@@ -1,0 +1,7 @@
+a, b, c = input().split()
+a, b, c = int(a), int(b), int(c)
+
+if a == 3 and b == 3 and c == 3:
+    print("hole")
+else:
+    print(a + b + c)
