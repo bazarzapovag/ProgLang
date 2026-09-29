@@ -1,0 +1,11 @@
+A, B, C = map(int, input().split())
+
+l = min(A, B)
+r = max(A, B)
+
+if C < l:
+    print(l - C)
+elif C > r:
+    print(C - r)
+else:
+    print(0)
