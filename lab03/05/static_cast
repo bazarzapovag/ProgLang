@@ -1,0 +1,12 @@
+#include <iostream>
+
+int main() {
+    double a = 3.98159;
+    int int_a = static_cast<int>(a); 
+    std::cout << int_a << std::endl;
+
+    int n = 7;
+    double d_n = static_cast<double>(n) / 2;
+    std::cout << d_n << std::endl;
+    return 0;
+}
