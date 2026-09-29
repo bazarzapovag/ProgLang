@@ -1,0 +1,11 @@
+n, a = input().split()
+n, a = int(n), int(a)
+
+cnt = 0
+x = a
+
+while cnt < n:
+    if x % 2 != 0 and x % 3 != 0 and x % 5 != 0 and x % 7 != 0:
+        print(x, end=" ")
+        cnt += 1
+    x += 1
