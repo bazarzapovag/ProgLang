@@ -1,0 +1,8 @@
+#include <iostream>
+int main() {
+    for (int x = 0; x <= 2; ++x)
+        for (int y = 0; y <= 2; ++y)
+            for (int z = 0; z <= 2; ++z)
+                if ((x == y) + (x == z) == true)
+                    std::cout << "x=" << x << " y=" << y << " z=" << z << std::endl;
+}
