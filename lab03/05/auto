@@ -1,0 +1,21 @@
+#include <iostream>
+#include <vector>
+#include <map>
+#include <string>
+
+int main() {
+    auto x = 10;          
+    auto d = 3.14;  
+    auto name = std::string("Alice");
+    auto v = std::vector<int>{1, 2, 3};
+
+    std::map<std::string, int> ages = {{"Alice", 30}, {"Bob", 25}};
+    for (auto it = ages.begin();
+        it != ages.end(); ++it) {
+        std::cout << it->first << " = " << it->second << std::endl;
+    }
+    for (const auto& pair : ages) {
+        std::cout << pair.first << std::endl;
+    }
+    return 0;
+}
