@@ -1,0 +1,19 @@
+#include <iostream>
+#include <vector>
+#include <map>
+#include <string>
+
+typedef unsigned long long ull; 
+typedef std::vector<int> IntVec;
+typedef std::map<std::string, int> Age; 
+
+int main() {
+    ull big = 18446744073709551615ULL;
+    IntVector v = {1, 2, 3};
+    AgeMap ages = {{"Alice", 30}, {"Bob", 25}};
+
+    std::cout << big << std::endl;
+    std::cout << v[0] << std::endl;
+    std::cout << ages["Alice"] << std::endl;
+    return 0;
+}
