@@ -1,0 +1,8 @@
+cnt= 0
+
+while True:
+    name = input()
+    cnt += 1
+    if name == "Petr":
+        print(cnt)
+        break
