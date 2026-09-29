@@ -1,0 +1,21 @@
+#include <iostream>
+
+int main() {
+    int x = 5;
+    bool b = x;
+    std::cout << b << std::endl;
+    return 0;
+}
+
+
+
+public class pr2 {
+    public static void main(String[] args) {
+        int x = 5;
+        boolean b = x;
+        System.out.println(b);
+    }
+}
+
+
+В C++ любой int превращается в true. В Java int и boolean - несовместимые типы, преобразование запрещено.
