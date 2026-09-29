@@ -1,0 +1,21 @@
+#include <iostream>
+
+int main() {
+    double d = 3.99;
+    int i = d;
+    std::cout << i << std::endl;
+    return 0;
+}
+
+
+
+public class pr1 {
+    public static void main(String[] args) {
+        double d = 3.99;
+        int i = d;
+        System.out.println(i);
+    }
+}
+
+
+В C++ компилятор молча отбрасывает дробную часть. В Java требуется явное приведение (int) d, иначе программа не компилируется.
