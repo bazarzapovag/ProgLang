@@ -1,7 +1,8 @@
 #include <iostream>
-using namespace std;
+#include <algorithm>
 
 int main() {
-    int x=10, y=3;
-    std::cout << std::min(x=15, x+y);
+    int x = 10, y = 3;
+    std::cout << std::min(x = 15, x + y) << std::endl;
+    return 0;
 }
